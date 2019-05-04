@@ -1,0 +1,27 @@
+program programaDeTesteValido1 ; 
+	var variavelInteira1, variavelInteira2 : integer ; 
+	
+	procedure procedimento ( ) ; 
+		var variavelDeProcedimento : real;
+		begin
+			variavelDeProcedimento := 29.200;
+			variavelInteira1 := variavelInteira1 * variavelInteira2;
+		end 
+	;
+	function funcao ( var parametroDeFuncao1 : integer ; var parametroDeFuncao2 : integer ) : integer ;
+		var variavelDeFuncao : boolean ;
+		begin
+			if ( parametroDeFuncao1 >= parametroDeFuncao2 ) then
+				variavelInteira1 := 10
+			else
+				begin
+					variavelInteira1 := 5;
+					variavelInteira2 := variavelInteira1 * 10 + parametroDeFuncao1;
+					procedimento();
+				end
+				;
+		end 
+	;
+	begin  
+	end
+.
